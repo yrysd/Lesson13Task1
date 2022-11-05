@@ -72,4 +72,15 @@ public class MyClass {
                 """,getName(),getSureName(),getAge(), Arrays.toString(getCourses()),getYourFavoriteFood());
     }
 
+    public void getInfo1(){
+        System.out.printf("""
+                age: %s
+                Name: %s
+                SureName: %s
+                yourFavoriteFood: %s
+                Courses: %s
+                
+                
+                """,getAge(),getName(),getSureName(), getYourFavoriteFood(),Arrays.toString(getCourses()));
 }
+ }
